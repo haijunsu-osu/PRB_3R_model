@@ -12,6 +12,10 @@ This simulator allows engineers and researchers to:
 - **Calculate** the potential energy stored in the flexible segments.
 - **Optimize** mechanism dimensions and material properties for specific mechanical outputs.
 
+## Launch App
+
+[**Launch Pseudo-Rigid Body 3R Model Simulator**](https://ai.studio/apps/721192f9-4545-4477-b929-3c9255b928a2?fullscreenApplet=true)
+
 ## Key Features
 
 - **Real-time Kinematic Solver**: Uses numerical methods to solve the non-linear loop closure equations of the 3R model.
@@ -23,4 +27,4 @@ This simulator allows engineers and researchers to:
 
 If you use this model or simulator in your research, please cite the original paper:
 
-**Su, H. (January 7, 2009). "A Pseudorigid-Body 3R Model for Determining Large Deflection of Cantilever Beams Subject to Tip Loads." ASME. J. Mechanisms Robotics. May 2009; 1(2): 021008.**
+**Su, H. (January 7, 2009). "A Pseudorigid-Body 3R Model for Determining Large Deflection of Cantilever Beams Subject to Tip Loads." ASME. J. Mechanisms Robotics. May 2009; 1(2): 021008. [DOI: 10.1115/1.3046148](https://doi.org/10.1115/1.3046148)**
