@@ -14,7 +14,10 @@ This simulator allows engineers and researchers to:
 
 ## Launch App
 
-[**Launch Pseudo-Rigid Body 3R Model Simulator**](https://ai.studio/apps/721192f9-4545-4477-b929-3c9255b928a2?fullscreenApplet=true)
+- [**Launch via AI Studio (Full Screen)**](https://ai.studio/apps/721192f9-4545-4477-b929-3c9255b928a2?fullscreenApplet=true)
+- [**Direct Web Access (Standalone)**](https://ais-pre-acon4ilwn76a5tcqvpnvrp-4728768104.us-east5.run.app)
+- [**Launch via GitHub Pages**](https://haijunsu-osu.github.io/PRB_3R_model/)
+- [**Source Code & Repository (GitHub)**](https://github.com/haijunsu-osu/PRB_3R_model)
 
 ## Key Features
 
