@@ -1,11 +1,26 @@
-<div align="center">
+# Pseudo-Rigid Body 3R Model Simulator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This web application is a high-precision simulator for partially compliant four-bar mechanisms, specifically implementing the **Pseudo-Rigid Body (PRB) 3R model**. 
 
-  <h1>Built with AI Studio</h2>
+## Purpose
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+The PRB 3R model is used to accurately predict the large deflection behavior of cantilever beams subjected to tip loads. By modeling a flexible beam as a series of rigid segments connected by torsion springs, the complex non-linear differential equations of beam deflection are transformed into a solvable kinematic problem.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+This simulator allows engineers and researchers to:
+- **Visualize** the motion of a compliant linkage in real-time.
+- **Analyze** the input torque required to drive the mechanism through its full cycle.
+- **Calculate** the potential energy stored in the flexible segments.
+- **Optimize** mechanism dimensions and material properties for specific mechanical outputs.
 
-</div>
+## Key Features
+
+- **Real-time Kinematic Solver**: Uses numerical methods to solve the non-linear loop closure equations of the 3R model.
+- **Dynamic Analysis**: Live plots of crank torque and potential energy relative to the initial assembly state.
+- **Interactive Parameters**: Adjust beam length, crank radius, material properties (Young's Modulus), and PRB characteristic parameters ($\gamma$, $K_\Theta$).
+- **Technical Visualization**: A clean, CAD-like interface with zoom and pan support for detailed inspection of the mechanism's path.
+
+## Citation
+
+If you use this model or simulator in your research, please cite the original paper:
+
+**Su, H. (January 7, 2009). "A Pseudorigid-Body 3R Model for Determining Large Deflection of Cantilever Beams Subject to Tip Loads." ASME. J. Mechanisms Robotics. May 2009; 1(2): 021008.**

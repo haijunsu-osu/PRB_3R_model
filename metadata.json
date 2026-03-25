@@ -1,0 +1,5 @@
+{
+  "name": "Pseudo-Rigid Body 3R Model",
+  "description": "A simulator for a partially compliant four-bar mechanism using the Pseudorigid-Body (PRB) 3R model for large deflection beams.",
+  "requestFramePermissions": []
+}
